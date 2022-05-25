@@ -95,10 +95,32 @@ li:last-child {
   font-style: italic;
 }
 
-li:nth-child(3) {
-  /* color: blue; */
+/* li:nth-child(3) {
+  color: blue;
+} */
+
+/* Isso não funciona */
+article p:first-child {
+  color: red;
 }
 
-/* article header p:first-of-type {
-  color: red;
-} */
+/* Styling Hyperlinks (LVHA) */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
